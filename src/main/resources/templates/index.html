@@ -5,11 +5,11 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="description" content="云收藏 | 让收藏更简单 |收藏夹 |网络收藏夹"/>
+    <meta name="description" content="Favorites | 让收藏更简单 |收藏夹 |网络收藏夹"/>
     <meta name="author" content=""/>
-    <meta http-equiv="refresh" content="6;url=/lookAround" />
+    <meta http-equiv="refresh" content="30;url=/lookAround" />
 
-    <title>云收藏 | 让收藏更简单</title>
+    <title>Favorites | 让收藏更简单</title>
     <link rel="icon" href="/img/icon.ico" type="image/x-icon" />
     <!-- Bootstrap Core CSS -->
     <link href="index/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">云收藏</a>
+                <a class="navbar-brand" href="#page-top">Favorites</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -78,7 +78,7 @@
                 <div class="col-lg-12">
                     <img class="img-responsive" src="index/img/profile.png" alt="" />
                     <div class="intro-text">
-                        <span class="name">云收藏</span>
+                        <span class="name">Favorites</span>
                         <hr class="star-light"/>
                         <span class="skills">随时随地 - 方便快捷 - 智慧收藏</span><br/>
                         <span class="skills">-------------------------------</span>
@@ -94,7 +94,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>云收藏的收藏家</h2>
+                    <h2>Favorites的收藏家</h2>
                     <hr class="star-primary"/>
                 </div>
             </div>
@@ -165,11 +165,26 @@
                         <img src="index/img/portfolio/submarine.png" class="img-responsive" alt="" />
                     </a>
                 </div>
+
+
+                <div class="col-sm-4 portfolio-item">
+                    <a href="/lookAround" class="portfolio-link">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                                <p>我收藏的文章最多，我收藏我快乐！</p>
+                                <p th:if="${user != null}" th:text="${user.userName}"></p>
+                            </div>
+                        </div>
+                        <img src="index/img/portfolio/submarine.png" alt="" class="img-responsive"/>
+                    </a>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!--  <section id="portfolio">
+     <!--<section id="portfolio">
          <div class="container">
              <div class="row">
                  <div class="col-lg-12 text-center">
