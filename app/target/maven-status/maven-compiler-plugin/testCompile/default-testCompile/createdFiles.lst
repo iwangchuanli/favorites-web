@@ -1,0 +1,10 @@
+com\favorites\controller\HelloWorldControlerTests.class
+com\favorites\domain\UserRepositoryTests.class
+com\favorites\domain\CollectorRepositoryTest.class
+com\favorites\domain\RepositoryTest.class
+com\favorites\util\html\HtmlUtilTest.class
+com\favorites\util\html\HTMLParserExample2.class
+com\favorites\util\TestString.class
+com\favorites\domain\CollectRepositoryTest.class
+com\favorites\util\html\HTMLParserExample1.class
+com\favorites\FavoritesApplicationTests.class
