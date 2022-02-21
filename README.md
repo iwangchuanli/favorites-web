@@ -41,22 +41,6 @@
 * ~~Redis~~
 
 
-Screenshots
-------------
-
-主页  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_index.png)  
-
-注册  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_register.png)  
-
-首页  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_home.png)  
-
-收藏  
-![favorites_chrome](http://www.ityouknow.com/assets/images/2016/favorites_collect.png)  
-
-
 How to use
 ------------
 
@@ -66,7 +50,7 @@ How to use
 Docker Deploy
 ----------
 
-推荐使用 Docker 部署此项目，需要提前安装 Docker 和 Docker compose 环境，[可以参考这里](http://www.ityouknow.com/docker.html)
+推荐使用 Docker 部署此项目，需要提前安装 Docker 和 Docker compose 环境
 
 下载最新发布版本
 
