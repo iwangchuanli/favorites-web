@@ -1,5 +1,3 @@
-![](http://favorites.ren/img/icon.ico)
-![](http://favorites.ren/index/img/profile.png)
 
 云收藏 - 让收藏更简单
 =========================
@@ -44,25 +42,13 @@
 How to use
 ------------
 
-![How to use](http://favorites.ren/img/useTool.gif)
+![How to use](https://cdn.jsdelivr.net/gh/iwangchuanli/cdn@master/image/2022/04/useTool_2UafSh.gif)
 
 
 Docker Deploy
 ----------
 
 推荐使用 Docker 部署此项目，需要提前安装 Docker 和 Docker compose 环境
-
-下载最新发布版本
-
-``` sh
-wget https://github.com/cloudfavorites/favorites-web/archive/favorites-1.3.0.zip
-```
-
-解压
-
-``` sh
-unzip favorites-1.1.1.zip
-```
 
 进入目录
 
